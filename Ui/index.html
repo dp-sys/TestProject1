@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <!-- Link to our new CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav>
+        <div class="nav-container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
     <h1>Hello bro</h1>
     <p>Wassup</p>
     <p>test new para</p>
     <p>Wassup bro new line from vscode</p>
     <p>line added from vscode</p>
     <p>line added from github</p>
+
+    <script>
+        // Add a small animation when the page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
 </body>
 </html>
